@@ -6,7 +6,7 @@ int main()
 	static int count;
 	cin>>n;
 	if(n!=0){
-	while(n>0)
+	while(n>0 || n<0)
 	{
 		n=n/10;
 		++count;
