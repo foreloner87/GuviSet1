@@ -5,7 +5,7 @@ def arms(x,y):
         for j in range(len(l)):
             sum+=(int(l[j])**3)
         if(sum==i):
-            print(i)
+            print(i,end=' ')
 a,b=input().split()
 a,b=int(a),int(b)
 arms(a,b)
