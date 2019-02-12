@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-	int n1,n2;
+	int n1,n2,c=0;
 	cin>>n1>>n2;
 	for(int i=n1+1;i<n2;i++)
 	{
@@ -15,9 +15,10 @@ int main()
 		}
 	if(sum==i)
 	{
-		cout<<i;
-		if(i<=n2-2)
+		++c;
+		if(c>1)
 			cout<<' ';
+		cout<<i;
 	}
 	}
 	return 0;
