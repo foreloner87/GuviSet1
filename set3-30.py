@@ -1,0 +1,9 @@
+h1,m1=input().split()
+h2,m2=input().split()
+h1,m1=int(h1),int(m1)
+h2,m2=int(h2),int(m2)
+t1,t2=(h1*60)+m1,(h2*60)+m2
+if(t1>t2):
+    print((t1-t2)//60,(t1-t2)%60)
+else:
+    print((t2-t1)//60,(t2-t1)%60)
