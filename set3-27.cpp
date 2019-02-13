@@ -12,6 +12,6 @@ int main()
 	if(c==0)
 	cout<<"yes";
 	else
-	cout<<"no";
+	cout<<"No";
 	return 0;
 }
